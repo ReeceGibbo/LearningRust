@@ -13,17 +13,17 @@ pub fn bigger(a: i32, b: i32) -> i32 {
 mod tests {
     #[test]
     fn ten_is_bigger_than_eight() {
-        assert_eq!(10, crate::level2::bigger(10, 8));
+        assert_eq!(10, crate::basic_number_tests::bigger(10, 8));
     }
 
     #[test]
     fn fortytwo_is_bigger_than_thirtytwo() {
-        assert_eq!(42, crate::level2::bigger(32, 42));
+        assert_eq!(42, crate::basic_number_tests::bigger(32, 42));
     }
 
     #[test]
     fn equal_numbers() {
-        assert_eq!(42, crate::level2::bigger(42, 42));
+        assert_eq!(42, crate::basic_number_tests::bigger(42, 42));
     }
 
     #[test]
