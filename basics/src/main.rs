@@ -8,6 +8,12 @@ mod enum_tests;
 mod string_tests;
 mod module_tests;
 mod hashmap_tests;
+mod hashmap_tests_2;
+mod hashmap_tests_3;
+mod option_testing;
+mod error_testing;
+mod error_testing_2;
+mod generics_testing;
 
 fn main() {
     println!("Hello, world!");
