@@ -14,6 +14,7 @@ mod option_testing;
 mod error_testing;
 mod error_testing_2;
 mod generics_testing;
+mod trait_testing;
 
 fn main() {
     println!("Hello, world!");
